@@ -1,0 +1,182 @@
+/* HERO SECTION */
+
+.main-container{
+    background-image: url('/resources/images/main-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 81.3% 93%, 45.8% 98.5%, 16.1% 96.3%, 0% 100%);
+}
+
+.headline{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    text-align: left;
+}
+
+.headline__text >p{
+    font-family: "Source Sans 3", sans-serif;
+    text-transform: uppercase;
+    color: var(--white);
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 5rem
+}
+
+.headline__text >p.manila{
+    font-size: 10rem;
+}
+
+.headline__buttons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5rem;
+    margin-top: 2rem;
+}
+
+.headline__buttons > button{
+    width: 35%;
+    background-color: transparent;
+    border: 1px solid var(--white);
+    border-radius: .4rem;
+    padding: 1rem 0;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: ease-in-out .1s;
+}
+
+.headline__buttons > button.get-tix{
+    background-color: var(--primary-orange);
+    border: none;
+}
+
+button.get-tix:hover{
+    background-color: var(--secondary-orange);
+}
+
+button.loc-map:hover{
+    background-color: var(--outline-hovered);
+    border: 1px solid var(--white);
+}
+
+
+/* INTRODUCTION 1 */
+.intro1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 2rem 2rem;
+}
+
+.intro1__title{
+   color: var(--tertiary-green); 
+   font-size: 6rem;
+   font-family: "Source Sans 3", sans-serif;
+   font-weight: 900;
+   line-height: 5rem;
+}
+
+.intro1 p{
+    font-size: 1.2rem;
+    color: var(--black);
+    line-height: 2rem;
+}
+
+.intro1 p span{
+    font-weight: 900;
+}
+
+.intro1__pics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+}
+
+
+/* INTRODUCTION 2 */
+.intro2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 6rem;
+    padding: 5rem 2rem;
+}
+
+.intro2__title p{
+    font-size: 7rem;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 900;
+    color: var(--secondary-green);
+    line-height: 6rem;
+}
+
+.intro2__title .interact{
+    font-size: 9rem;
+    color: var(--tertiary-green);
+}
+
+.intro2__details{
+    color: var(--black);
+    font-size: 1.2rem;
+    width: 60%;
+    text-align: right;
+}
+
+
+/* INTRODUCTION 3 */
+.intro3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 2rem;
+    margin-bottom: 10rem;
+}
+
+.intro3__pics{
+    max-width: 80%;
+}
+
+.intro3__title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.intro3__title p{
+    font-size: 4.5rem;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 900;
+    color: var(--secondary-green);
+    line-height: 6rem;
+}
+
+.intro3__title .view-more{
+    width: 35%;
+    background-color: var(--primary-orange);
+    border-radius: 0.4rem;
+    border: none;
+    padding: 1rem 0;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: ease-in-out .1s;
+}
+
+button.view-more:hover{
+    background-color: var(--secondary-orange);
+}
